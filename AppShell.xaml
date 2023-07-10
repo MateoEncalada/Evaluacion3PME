@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Evaluacion3PME"
+    
     Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
@@ -13,6 +14,6 @@
     <!--<ShellContent
         Title="Navegacion"
         ContentTemplate="{DataTemplate local:NewPage1}"
-        Route="Nuestros Objetivos" />-->
+        Route="NewPage1"/>-->
 
 </Shell>

@@ -14,29 +14,30 @@
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
-
+            <Label Text="Color"/>
             <Label
                 x:Name="Color"
                 />
-            <Label Text="Color"/>
-            <Label
-                x:Name="EggGroup"/>
             <Label Text="EggGroup"/>
             <Label
-                x:Name="EvolvesFromSpecies"/>
+                x:Name="EggGroup"/>
             <Label Text="EvolvesFromSpecies"/>
             <Label
-                x:Name="FlavorTextEntry"/>
+                x:Name="EvolvesFromSpecies"/>
             <Label Text="FlavorTextEntry"/>
             <Label
-                x:Name="FormDescription"/>
+                x:Name="FlavorTextEntry"/>
+            
             <Label Text="FormDescription"/>
             <Label
-                x:Name="Genera"/>
+                x:Name="FormDescription"/>
             <Label Text="Genera"/>
             <Label
-                x:Name="Generation"/>
+                x:Name="Genera"/>
             <Label Text="Generation"/>
+            <Label
+                x:Name="Generation"/>
+            
 
             <Button
                 x:Name="CounterBtn"
