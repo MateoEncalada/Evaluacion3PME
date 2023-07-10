@@ -8,9 +8,9 @@ namespace Evaluacion3PME.MVVM.Model
 {
     public class ClaseME
     {
-        public string name { get; set; }
+        //public string name { get; set; }
         // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-        public class color
+        public class Color
         {
             public string name { get; set; }
             public string url { get; set; }
@@ -98,7 +98,7 @@ namespace Evaluacion3PME.MVVM.Model
         {
             public int base_happiness { get; set; }
             public int capture_rate { get; set; }
-            public color color { get; set; }
+            public Color color { get; set; }
             public List<EggGroup> egg_groups { get; set; }
             public EvolutionChain evolution_chain { get; set; }
             public EvolvesFromSpecies evolves_from_species { get; set; }

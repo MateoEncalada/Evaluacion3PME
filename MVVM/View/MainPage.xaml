@@ -16,19 +16,27 @@
                 HorizontalOptions="Center" />
 
             <Label
-                x:Name="Color"/>
+                x:Name="Color"
+                />
+            <Label Text="Color"/>
             <Label
                 x:Name="EggGroup"/>
+            <Label Text="EggGroup"/>
             <Label
                 x:Name="EvolvesFromSpecies"/>
+            <Label Text="EvolvesFromSpecies"/>
             <Label
                 x:Name="FlavorTextEntry"/>
+            <Label Text="FlavorTextEntry"/>
             <Label
                 x:Name="FormDescription"/>
+            <Label Text="FormDescription"/>
             <Label
                 x:Name="Genera"/>
+            <Label Text="Genera"/>
             <Label
                 x:Name="Generation"/>
+            <Label Text="Generation"/>
 
             <Button
                 x:Name="CounterBtn"
